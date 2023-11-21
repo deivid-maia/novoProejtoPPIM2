@@ -1,0 +1,29 @@
+{
+  "name": "novoproejtoppim2",
+  "version": "1.0.0",
+  "description": "projeto para manipulação dos parâmetros da url via formulário HTML",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deivid-maia/novoProejtoPPIM2.git"
+  },
+  "keywords": [
+    "node",
+    "aprender",
+    "ppi"
+  ],
+  "author": "Deivid Muller Maia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deivid-maia/novoProejtoPPIM2/issues"
+  },
+  "homepage": "https://github.com/deivid-maia/novoProejtoPPIM2#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
