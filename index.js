@@ -1,4 +1,5 @@
 import express from 'express';
+import path from 'path'; //lidar com as urls 
 
 const porta = 3000;
 const host = '0.0.0.0';
@@ -63,7 +64,7 @@ function processaCadastroUsuario(requisicao, resposta){
 const app = express();
 
 //indicando para a aplicação como servir arquivos estáticos localizados na pasta 'paginas'
-app.use(express.static('./paginas'));
+app.use(express.static(path.join(process.cwd(),'paginas'))); // junto com a biblioteca path, faz a correção da localização da pasta pro deploy no vercel
 
 app.get('/', (requisicao, resposta) => {
     resposta.end(`
